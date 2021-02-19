@@ -103,13 +103,13 @@ body div.main div.home-grid div.block{
     font-weight: normal;
     text-align: justify;
     height: 600px;
+    position: relative;
 }
 body div.main div.home-grid div.block.img{
     width: calc(50% - 32px);
     padding: 0;
     overflow: hidden;
     height: 632px;
-    position: relative;
 }
 body div.main div.home-grid div.block.img img{
     width: 100%;
@@ -138,4 +138,19 @@ body div.main div.home-grid div.block h2.block-title:after{
     width: 250px;
     height: 0;
     display: block;
+}
+body div.main div.home-grid div.block a.block-link-bottom{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    display: block;
+    color: #333;
+    bottom:0;
+    left:0;
+    width: 100%;
+    padding: 10px 0;
+    border-top: 3px solid #0F3C6E;
+    text-decoration: none;
 }
