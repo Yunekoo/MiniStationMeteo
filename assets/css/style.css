@@ -1,0 +1,141 @@
+@font-face {
+    font-family:"Roman";
+    src: url("../fonts/avenir-lt-55-roman.ttf");
+    font-weight:normal;
+    font-style:normal;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+body header nav.menu-nav{
+    position: relative;
+    display: flex;
+    background-color: #9ca3a7;
+    padding:12px 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+body header nav.menu-nav ul{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+}
+body header nav.menu-nav ul li.nav-item{
+    font-family: "Roman", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body header nav.menu-nav ul:last-child li.nav-item{
+    margin: 0 10px;
+}
+body header nav.menu-nav ul li.nav-item a{
+    text-decoration: none;
+    color: #0F3C6E;
+    display: block;
+    text-align: center;
+    transition: .3s
+}
+body header nav.menu-nav ul li.nav-item a:hover{
+    color: #42566d;
+}
+body header nav.menu-nav ul li.brand.img a img{
+    width:150px;
+    margin-right: 24px;
+}
+
+body div.main{
+    position: relative;
+    width: 100%;
+}
+body div.main div.bigscreen {
+    background-image: url(https://www.lesgets.com/app/uploads/2020/05/Paysages_sommets_Mont_Blanc_8874_Keno_Photographie_OT_Les_Gets-1920x830.jpg);
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Roman', sans-serif;
+}
+body div.main div.bigscreen:before{
+    content: "";
+    position: absolute;
+    display: block;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: rgba(0,0,0,0.3);
+}
+body div.main div.bigscreen h1{
+    z-index: 1;
+}
+
+body div.main div.home-grid{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+body div.main div.home-grid div.block{
+    width: calc(50% - 64px);
+    margin-bottom: 16px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+    font-family: "Roman", sans-serif;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: justify;
+    height: 600px;
+}
+body div.main div.home-grid div.block.img{
+    width: calc(50% - 32px);
+    padding: 0;
+    overflow: hidden;
+    height: 632px;
+    position: relative;
+}
+body div.main div.home-grid div.block.img img{
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+body div.main div.home-grid div.block h2.block-title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    color: #333;
+    margin-bottom: 32px;
+}
+body div.main div.home-grid div.block h2.block-title:after{
+    content: "";
+    position: absolute;
+    bottom:-10px;
+    left:50%;
+    transform: translateX(-50%);
+    border-bottom: 3px solid #0F3C6E;
+    width: 250px;
+    height: 0;
+    display: block;
+}
