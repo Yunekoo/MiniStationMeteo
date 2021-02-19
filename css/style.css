@@ -1,0 +1,146 @@
+@font-face {
+    font-family:"Roman";
+    src:url("/fonts/avenir-lt-55-roman.ttf")
+    font-weight:normal;
+    font-style:normal;
+}
+
+header {
+    background-color: #9ca3a7;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+}
+
+.ligne {
+    width: 5px;
+    border-left: 2px solid #7d8285;
+    height: 130px;
+    left: 280px;
+    top: 20px;
+    position: absolute;
+}
+
+.ligne2 {
+    width: 5px;
+    border-left: 2px solid #7d8285;
+    height: 130px;
+    left: 1400px;
+    top: 20px;
+    position: absolute;
+}
+
+.prev {
+    position: relative;
+}
+.logo {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    left: 20px;
+
+}
+
+
+nav.menu-nav ul li.prev {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+nav.menu-nav ul li.local {
+    position: absolute;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav.menu-nav ul li.prev, li.local, a, a:link, a:visited {
+    text-decoration: none;
+    color: #0F3C6E;
+}
+nav.menu-nav ul li.prev, li.local, a:hover {
+    color: #5c769a;
+    transition: 0.2s;
+}
+
+nav.menu-nav ul li.prev, li.local, a:hover:active {
+    color: #102a4d;
+}
+header {
+    display: flex;
+    font-family:'Roman';
+    font-weight: bold;
+}
+.lang {
+    
+}
+.thumbnail {
+    background-image: url(https://www.lesgets.com/app/uploads/2020/05/Paysages_sommets_Mont_Blanc_8874_Keno_Photographie_OT_Les_Gets-1920x830.jpg);
+    position: absolute;
+    width: 100%;
+    height: 500px;
+}
+
+span {
+    font-family: 'Roman';
+    color: white;
+    position: absolute;
+}
+
+.main-text-1 {
+    background-color: #0f705d;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 654px;
+    margin-left: 0px;
+    text-align: center;
+    box-shadow: 1px 1px 12px black;
+}
+
+.main-text-2, .station {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100%;
+    margin-left: 900px;
+    text-align: center;
+
+}
+
+.main-text-3 {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 1500px;
+    margin-left: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 12px black;
+}
+
+.main-text-4 {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 1500px;
+    margin-left: 900px;
+    text-align: center;
+    box-shadow: 1px 1px 12px black;
+}
